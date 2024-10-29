@@ -18,7 +18,6 @@ class BoundedQueue:
             raise Exception('Error: Queue is full')
         self.__items.append(item)
 
-
     def dequeue(self):
         '''
         Dequeue the element from the front of the queue and return it
@@ -28,7 +27,6 @@ class BoundedQueue:
         if len(self.__items) <= 0:
             raise Exception('Error: Queue is empty')
         return self.__items.pop(0)
-    
     
     def isEmpty(self):
             return len(self.__items) == 0
@@ -44,4 +42,3 @@ class BoundedQueue:
 
     def __str__(self):
         return str(self.__items)
-        
