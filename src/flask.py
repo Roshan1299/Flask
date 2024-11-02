@@ -217,8 +217,21 @@ def play(flasks,num_chem):
 
 def main() :
     clear_screen()      #This clears the screen
-  
-    with open("chemicals2.txt","r") as file :
+    
+    print_location(0,1,"Magical Flask Game")
+    print_location(0,2,"")    
+    print_location(0,3,"Select difficulty level (1-4): ")
+    difficulty = input()
+        
+    # Map difficulty level to the corresponding file
+    file_mapping = {
+        '1': 'chemical_level_1.txt',
+        '2': 'chemical_level_2.txt',
+        '3': 'chemical_level_3.txt',
+        '4': 'chemical_level_4.txt',
+    }    
+    
+    with open(file_mapping[difficulty],"r") as file :
         item = file.readline().strip()
         num_flask = int(item[0])
         num_chem = int(item[-1])
