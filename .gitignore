@@ -1,3 +1,3 @@
-src/chemical_level_1.txt
+src/*.txt
 src/chemical_level_2.txt
 src/chemical_level_3.txt
