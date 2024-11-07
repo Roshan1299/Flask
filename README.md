@@ -21,18 +21,18 @@ Welcome to the Magical Flask Game, a terminal-based game where you manage chemic
 ## How to Play
 
 - Select a difficulty level (1-4) when prompted. Each difficulty level corresponds to a different set of flask configurations
--The game will display the flasks in the terminal. Each flask can hold up to a specified number of chemicals, and some flasks may already be sealed.
--To make a move, select a source flask (where chemicals are moved from) and a destination flask (where chemicals are moved to). You can type EXIT at any time to end the game.
+- The game will display the flasks in the terminal. Each flask can hold up to a specified number of chemicals, and some flasks may already be sealed.
+- To make a move, select a source flask (where chemicals are moved from) and a destination flask (where chemicals are moved to). You can type EXIT at any time to end the game.
 
 ## Game Rules
 
--Each flask can hold a limited number of chemicals (typically 3).
--The chemicals are represented by different colors.
--You can transfer chemicals between flasks, but you cannot:
-  -Pour chemicals from an empty or sealed flask.
-  -Pour into a full or sealed flask.
-  -Pour chemicals into the same flask.
--The game ends when the specified number of flasks are sealed with chemicals, or if you exit the game.
+- Each flask can hold a limited number of chemicals (typically 3).
+- The chemicals are represented by different colors.
+- You can transfer chemicals between flasks, but you cannot:
+  - Pour chemicals from an empty or sealed flask.
+  - Pour into a full or sealed flask.
+  - Pour chemicals into the same flask.
+- The game ends when the specified number of flasks are sealed with chemicals, or if you exit the game.
 
 ## Example Output
 ## Customizing the Game
