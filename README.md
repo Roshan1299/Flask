@@ -6,11 +6,10 @@ Welcome to the Magical Flask Game, a terminal-based game where you manage chemic
 
 1. [Features](#features)
 2. [How to Play](#how-to-play)
-3. [Key Functions](#key-functions)
-4. [Game Rules](#game-rules)
-5. [Example Output](#example-output)
-6. [Customizing the Game](#customizing-the-game)
-7. [License](#license)
+3. [Game Rules](#game-rules)
+4. [Example Output](#example-output)
+5. [Customizing the Game](#customizing-the-game)
+6. [License](#license)
 
 ## Features
 
