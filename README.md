@@ -8,8 +8,7 @@ Welcome to the Magical Flask Game, a terminal-based game where you manage chemic
 2. [How to Play](#how-to-play)
 3. [Game Rules](#game-rules)
 4. [Example Output](#example-output)
-5. [Customizing the Game](#customizing-the-game)
-6. [License](#license)
+5. [License](#license)
 
 ## Features
 
@@ -35,7 +34,6 @@ Welcome to the Magical Flask Game, a terminal-based game where you manage chemic
 - The game ends when the specified number of flasks are sealed with chemicals, or if you exit the game.
 
 ## Example Output
-## Customizing the Game
 
 ## License 
 
